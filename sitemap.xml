@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ssokvoca.soarus.dev -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ssokvoca.soarus.dev/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ssokvoca.soarus.dev/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ssokvoca.soarus.dev/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ssokvoca.soarus.dev/"/>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://ssokvoca.soarus.dev/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ssokvoca.soarus.dev/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ssokvoca.soarus.dev/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ssokvoca.soarus.dev/"/>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url><loc>https://ssokvoca.soarus.dev/privacy.html</loc></url>
+  <url><loc>https://ssokvoca.soarus.dev/terms.html</loc></url>
+  <url><loc>https://ssokvoca.soarus.dev/en/privacy.html</loc></url>
+  <url><loc>https://ssokvoca.soarus.dev/en/terms.html</loc></url>
+</urlset>

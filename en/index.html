@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ssokvoca — JLPT Kanji &amp; Vocab app, N5 to N1</title>
+<meta name="description" content="Learn the JLPT kanji from N5 to N1, five a day. 2,136 joyo kanji with meanings, words, examples and stroke order. Mini quizzes, missed kanji again today. No sign-in, no ads. iPhone and Android.">
+<link rel="canonical" href="https://ssokvoca.soarus.dev/en/">
+<link rel="alternate" hreflang="ko" href="https://ssokvoca.soarus.dev/">
+<link rel="alternate" hreflang="en" href="https://ssokvoca.soarus.dev/en/">
+<link rel="alternate" hreflang="x-default" href="https://ssokvoca.soarus.dev/">
+<!-- Naver Search Advisor verification goes on the Korean page (/) only. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ssokvoca">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:title" content="Ssokvoca — JLPT kanji, five a day">
+<meta property="og:description" content="2,136 joyo kanji, N5 to N1. Learn, check with a quiz, and see the ones you missed again today.">
+<meta property="og:url" content="https://ssokvoca.soarus.dev/en/">
+<meta property="og:image" content="https://ssokvoca.soarus.dev/assets/og-en.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ssokvoca — JLPT kanji, five a day">
+<meta name="twitter:description" content="2,136 joyo kanji, N5 to N1. Learn, check with a quiz, and see the ones you missed again today.">
+<meta name="twitter:image" content="https://ssokvoca.soarus.dev/assets/og-en.png">
+<meta name="theme-color" content="#F6F5F1">
+<link rel="icon" type="image/png" sizes="48x48" href="../assets/favicon-48.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<meta name="apple-itunes-app" content="app-id=6834243396">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"MobileApplication","name":"Ssokvoca","alternateName":"쏙보카","operatingSystem":"iOS, Android","applicationCategory":"EducationalApplication","inLanguage":"en","description":"Learn the 2,136 JLPT kanji from N5 to N1, five at a time","url":"https://ssokvoca.soarus.dev/en/","image":"https://ssokvoca.soarus.dev/assets/icon-512.png","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"soarus","email":"help@99jeomjip.com"},"sameAs":["https://apps.apple.com/app/id6834243396","https://play.google.com/store/apps/details?id=kr.soarus.ssokvoca"]}
+</script>
+<style>
+:root{--paper:#F6F5F1;--card:#FFFFFF;--ink:#1C1F24;--ink2:#4A4F57;--soft:#6A6F76;--line:#E6E2DA;--fox:#D05F3F;--foxSoft:#F7E6E2;--dark:#1C1F24}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Pretendard",system-ui,sans-serif;line-height:1.65;overflow-wrap:break-word}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+/* 머리 */
+.top{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;font-size:18px}
+.brand img{width:36px;height:36px;border-radius:9px}
+.lang{font-size:14px;color:var(--ink2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:5px 12px;background:var(--card)}
+/* 첫 화면 */
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:28px 0 56px}
+.eyebrow{display:inline-block;color:var(--fox);font-weight:700;font-size:14px;letter-spacing:.02em;margin:0 0 12px}
+h1{font-size:46px;line-height:1.25;margin:0 0 18px;letter-spacing:-.02em}
+h1 em{font-style:normal;color:var(--fox)}
+.lead{font-size:18px;color:var(--ink2);margin:0 0 28px;max-width:30em}
+.stores{display:flex;flex-wrap:wrap;gap:12px}
+.store{display:inline-flex;flex-direction:column;justify-content:center;min-width:176px;height:56px;padding:0 20px;border-radius:12px;background:var(--dark);color:#fff;text-decoration:none;line-height:1.2}
+.store small{font-size:11px;opacity:.75}
+.store b{font-size:17px;font-weight:600}
+.note{margin:16px 0 0;font-size:14px;color:var(--soft)}
+.shot{position:relative;justify-self:center;width:300px}
+.phone{border-radius:38px;background:#111;padding:9px;box-shadow:0 24px 48px rgba(28,31,36,.16)}
+.phone img{border-radius:30px;width:100%;height:auto;aspect-ratio:1320/2868;object-fit:cover}
+.shot::before{content:"";position:absolute;inset:40px -36px auto auto;width:260px;height:260px;border-radius:50%;background:var(--foxSoft);z-index:-1}
+/* 기능 */
+section{padding:48px 0}
+h2{font-size:30px;line-height:1.3;margin:0 0 8px;letter-spacing:-.01em}
+.sub{color:var(--ink2);margin:0 0 28px}
+.feats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.feat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 20px}
+.feat .k{width:48px;height:48px;border-radius:12px;background:var(--foxSoft);color:var(--fox);display:grid;place-items:center;font-size:26px;font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;margin-bottom:14px}
+.feat h3{font-size:18px;margin:0 0 6px}
+.feat p{margin:0;color:var(--ink2);font-size:15px}
+.quiet{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:20px;padding:0;list-style:none;color:var(--ink2);font-size:15px}
+.quiet li::before{content:"✓ ";color:var(--fox);font-weight:700}
+/* 화면 */
+.screens{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.screens figure{margin:0}
+.screens .phone{border-radius:28px;padding:6px;box-shadow:0 12px 28px rgba(28,31,36,.12)}
+.screens .phone img{border-radius:23px}
+.screens figcaption{text-align:center;font-weight:600;margin-top:12px;font-size:15px}
+/* 무료 띠 */
+.band{background:var(--fox);color:#fff;border-radius:24px;padding:36px 32px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.band h2{color:#fff;margin:0 0 4px}
+.band p{margin:0;opacity:.92}
+.bandfox{width:96px;flex:none;margin:-12px 0 -20px}
+.bandtxt{flex:1 1 280px}
+.band .store{background:#fff;color:var(--ink)}
+/* 문의 */
+.support{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 20px}
+.box h3{margin:0 0 6px;font-size:17px}
+.box p{margin:0;color:var(--ink2);font-size:15px}
+.mail{font-size:20px;font-weight:700;color:var(--fox);text-decoration:none}
+/* 바닥 */
+footer{border-top:1px solid var(--line);margin-top:24px;padding:28px 0 48px;font-size:13px;color:var(--soft)}
+footer nav{display:flex;flex-wrap:wrap;gap:6px 18px;margin-bottom:14px;font-size:14px}
+footer nav a{color:var(--ink2)}
+footer p{margin:0 0 8px}
+/* 좁은 화면 */
+@media (max-width:900px){
+ .hero{grid-template-columns:1fr;gap:32px;padding-top:12px}
+ h1{font-size:34px}
+ .lead{font-size:17px}
+ .feats{grid-template-columns:1fr 1fr}
+ .screens{grid-template-columns:repeat(4,72%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
+ .screens figure{scroll-snap-align:center}
+ .support{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+ .wrap{padding:0 16px}
+ h1{font-size:30px}
+ h2{font-size:24px}
+ .feats{grid-template-columns:1fr}
+ .stores .store{flex:1 1 150px;min-width:0}
+ .shot{width:240px}
+  .shot::before{width:200px;height:200px;right:-28px}
+ .screens{grid-template-columns:repeat(4,68%)}
+ .band{padding:28px 20px}
+ .bandfox{width:72px;margin:0}
+ section{padding:36px 0}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <a class="brand" href="/en/"><img src="../assets/icon-512.png" alt="" width="36" height="36">Ssokvoca</a>
+  <a class="lang" href="/" hreflang="ko" lang="ko">한국어</a>
+</header>
+
+<main>
+<div class="hero">
+  <div>
+    <p class="eyebrow">JLPT Kanji &amp; Vocab, N5–N1</p>
+    <h1>JLPT kanji,<br><em>five a day</em></h1>
+    <p class="lead">All 2,136 joyo kanji from N5 to N1. Learn each with its meaning, check with a mini quiz, and see the ones you missed again today.</p>
+    <div class="stores">
+      <a class="store" href="https://apps.apple.com/app/id6834243396"><small>iPhone &amp; iPad</small><b>App Store</b></a>
+      <a class="store" href="https://play.google.com/store/apps/details?id=kr.soarus.ssokvoca"><small>Android</small><b>Google Play</b></a>
+    </div>
+    <p class="note">First N5 unit free · No sign-in, no ads</p>
+  </div>
+  <div class="shot">
+    <div class="phone"><img src="../assets/en-01-today.jpg" alt="Ssokvoca Today tab: today's kanji, progress and days to the exam" width="552" height="1200"></div>
+  </div>
+</div>
+
+<section id="features" aria-labelledby="f-h">
+  <h2 id="f-h">A little at a time, again before you forget</h2>
+  <p class="sub">Small sets to learn, and the ones you missed come back first.</p>
+  <div class="feats">
+    <div class="feat"><div class="k" aria-hidden="true">五</div><h3>Five at a time, then a quiz</h3><p>Learn a set of 5 kanji and check it right away with a mini quiz. Surprise tests show up now and then.</p></div>
+    <div class="feat"><div class="k" aria-hidden="true">再</div><h3>Missed ones come back today</h3><p>Kanji you miss return today, and reviews come back around the time you would forget (FSRS spaced repetition).</p></div>
+    <div class="feat"><div class="k" aria-hidden="true">日</div><h3>Paced to your exam date</h3><p>Set your exam date and get a daily amount from the kanji and days you have left. Or pick your own pace.</p></div>
+    <div class="feat"><div class="k" aria-hidden="true">字</div><h3>2,136 kanji, N5 to N1</h3><p>Every kanji has its meaning, words and examples, and stroke order you can trace with your finger.</p></div>
+  </div>
+  <ul class="quiet">
+    <li>No sign-in</li><li>No ads</li><li>No data collected</li><li>Works offline</li>
+  </ul>
+</section>
+
+<section id="screens" aria-labelledby="s-h">
+  <h2 id="s-h">How it works</h2>
+  <p class="sub">See today's set, learn it, check it, and watch it add up.</p>
+  <div class="screens">
+    <figure><div class="phone"><img src="../assets/en-01-today.jpg" alt="Today tab" loading="lazy" width="552" height="1200"></div><figcaption>Just today's set, at a glance</figcaption></figure>
+    <figure><div class="phone"><img src="../assets/en-02-lesson-kanji.jpg" alt="Kanji lesson with meaning, memory tip and words" loading="lazy" width="552" height="1200"></div><figcaption>Learn five kanji at a time</figcaption></figure>
+    <figure><div class="phone"><img src="../assets/en-04-correct.jpg" alt="Mini quiz, correct answer" loading="lazy" width="552" height="1200"></div><figcaption>Missed ones come back today</figcaption></figure>
+    <figure><div class="phone"><img src="../assets/en-05-dex.jpg" alt="Kanji collection" loading="lazy" width="552" height="1200"></div><figcaption>Your learned kanji pile up</figcaption></figure>
+  </div>
+</section>
+
+<section aria-labelledby="b-h">
+  <div class="band">
+    <img class="bandfox" src="../assets/fox-joy.png" alt="" width="96">
+    <div class="bandtxt"><h2 id="b-h">The first N5 unit is free</h2><p>Try it first. Premium opens every level.</p></div>
+    <div class="stores">
+      <a class="store" href="https://apps.apple.com/app/id6834243396"><small>iPhone &amp; iPad</small><b>App Store</b></a>
+      <a class="store" href="https://play.google.com/store/apps/details?id=kr.soarus.ssokvoca"><small>Android</small><b>Google Play</b></a>
+    </div>
+  </div>
+</section>
+
+<section id="support" aria-labelledby="c-h">
+  <h2 id="c-h">Support</h2>
+  <p class="sub">Questions, or spotted a mistake? Email us.</p>
+  <div class="support">
+    <div class="box"><h3>Email</h3><a class="mail" href="mailto:help@99jeomjip.com">help@99jeomjip.com</a><p>Letting us know your device (iPhone or Android) helps us help you faster.</p></div>
+    <div class="box"><h3>Report a content error</h3><p>Tap “Report an error” on any kanji screen to open an email with that kanji filled in. Manage subscriptions and refunds in your App Store or Google Play account.</p></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <nav>
+    <a href="https://ssokvoca.soarus.dev/en/privacy.html">Privacy Policy</a>
+    <a href="https://ssokvoca.soarus.dev/en/terms.html">Terms of Use</a>
+    <a href="https://ssokvoca.soarus.dev/privacy.html" lang="ko">개인정보처리방침</a>
+    <a href="https://ssokvoca.soarus.dev/terms.html" lang="ko">이용약관</a>
+  </nav>
+  <p>soarus (솔러스) · Representative: Seongyeop Kim · Business registration no. 655-27-02182 · Mail-order business report 2026-Seoul Seocho-2954 · 77 Hyoryeong-ro 31-gil, Seocho-gu, Seoul · +82 507-2097-2420</p>
+  <p>Ssokvoca is an unofficial study app, not affiliated with the Japan Foundation or JEES. JLPT is a trademark of its respective owners.</p>
+  <p>© 2026 soarus</p>
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# ssokvoca.soarus.dev
+User-agent: *
+Allow: /
+
+Sitemap: https://ssokvoca.soarus.dev/sitemap.xml
